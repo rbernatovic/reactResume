@@ -1,0 +1,162 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 0 15% 0 15%; */
+  margin: auto;
+  width: 1000px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  width: 50%;
+  margin-top: -15px;
+}
+.header h5, .footer__div h5 {
+  color: white;
+  background-color: black;
+  width: 150px;
+  text-align: center;
+}
+.header__top {
+  background-color: #7ABCAC;
+  height: 30px;
+  width: 100%;
+}
+.firstDiv, .secondDiv, .footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.personalTech {
+  display: flex;
+  justify-content: space-between;
+}
+.firstDiv__links, .education {
+  width: 35%;
+}
+.firstDiv__aboutMe, .personalTech {
+  width: 55%;
+}
+.personalSkills, .techSkills {
+  width: 50%;
+}
+.firstDiv__links__lines, .firstDiv__aboutMe__lines, .secondDiv__techSkills__lines, .secondDiv__personalSkills__lines, .secondDiv__education__lines, .thirdDiv__workExperience__lines, .firstDiv__links__linkDiv {
+  display: flex;
+  align-items: center;
+}
+.firstDiv__links__wideLine, .firstDiv__aboutMe__wideLine, .secondDiv__education__wideLine, .secondDiv__personalSkills__wideLine, .secondDiv__techSkills__wideLine, .thirdDiv__workExperience__wideLine {
+  background-color: #7ABCAC;
+  height: 5px;
+}
+.firstDiv__links__narrowLine, .firstDiv__aboutMe__narrowLine, .secondDiv__education__narrowLine, .secondDiv__personalSkills__narrowLine, .secondDiv__techSkills__narrowLine, .thirdDiv__workExperience__narrowLine {
+  background-color: #DCDCDC;
+  height: 2px;
+}
+.firstDiv__links__wideLine, .secondDiv__education__wideLine {
+  width: 20%;
+}
+.firstDiv__links__narrowLine, .secondDiv__education__narrowLine, .secondDiv__techSkills__narrowLine {
+  width: 80%;
+}
+.firstDiv__aboutMe__wideLine {
+  width: 12%;
+}
+.firstDiv__aboutMe__narrowLine {
+  width: 88%;
+}
+.secondDiv__personalSkills__wideLine, .secondDiv__techSkills__wideLine {
+  width: 25%;
+}
+.secondDiv__personalSkills__narrowLine {
+  width: 60%;
+}
+.thirdDiv__workExperience__wideLine {
+  width: 7%;
+}
+.thirdDiv__workExperience__narrowLine {
+  width: 93%;
+}
+.firstDiv__links__lines {
+  margin-bottom: 16px;
+}
+.firstDiv__links__linkDiv {
+  margin: 10px 0 10px 0;
+}
+.thirdDiv__threeBlocks {
+  display: flex;
+}
+.thirdDiv__threeBlocks__block__paragraphs, .footer__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdDiv__threeBlocks__verticalLine {
+  background-color: #DCDCDC;
+  width: 2px;
+  height: 300px;
+  margin: 30px 20px 0 20px;
+}
+.secondDiv__education__lines {
+  margin-bottom: 20px;
+}
+.education p {
+  margin: 0;
+}
+.personalSkills p, .techSkills p {
+  border-radius: 10px;
+  margin: 8px 0 8px 0;
+}
+.personalSkills__pDiv, .techSkills__pDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.personalSkills__one, .techSkills__one, .techSkills__two {
+  background-color: #7ABCAC;
+}
+.personalSkills__two, .techSkills__three, .techSkills__four {
+  background-color: #D8DA79;
+}
+.personalSkills__three {
+  background-color: #C29486;
+}
+.secondDiv__education__degreeLine {
+  background-color: #DCDCDC;
+  height: 2px;
+  width: 60%;
+  margin: 20px 0 20px 0;
+}
+.aboveFooterLine {
+  background-color: #DCDCDC;
+  height: 2px;
+  width: 100%;
+  margin-top: 20px;
+}
+.footer {
+  margin-bottom: 50px;
+}
+.footer__div {
+  margin: 0 80px 0 80px;
+}
+.footer__div p {
+  margin: 0;
+}
+.firstDiv__links__linkDiv img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
